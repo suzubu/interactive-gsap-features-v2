@@ -1,6 +1,6 @@
-# 📘 Interactive GSAP Features
+# 🎬 Interactive GSAP Features
 
-> A short interactive demo exploring staged animations with GSAP, using counters, easing curves, and DOM element reveals.
+> A demo collection showcasing interactive web features and animations built with GSAP, designed for exploration and learning.
 
 ---
 
@@ -30,51 +30,52 @@ npm run dev
 
 > Built with:  
 > - [GSAP](https://greensock.com/gsap/)  
-> - [Vite](https://vitejs.dev/)  
-> - Vanilla JavaScript  
-> - [CustomEase plugin](https://gsap.com/docs/v3/Eases/CustomEase/)
+> - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+> - [Vite](https://vitejs.dev/)
 
 ---
 
 ## ✨ Features
 
-- ✅ Smooth landing page reveal with custom easing
-- 🔢 Animated numerical counter
-- 🧩 Text splitting animation for staggered entrance
-- ✂️ Clip-path animations for layered visual reveals
+- 🎬 Scroll-triggered animations  
+- 🖱️ Interactive hover and click effects  
+- 📱 Mobile-friendly and responsive setup  
+- 🎨 A playground for experimenting with GSAP features  
 
 ---
 
 ## 💡 Dev Notes
 
-- Used `CustomEase` to mimic a "hop"-like easing curve for more natural animation flow
-- DOMContentLoaded listener ensures split text and entrance animations fire only after load
-- Structure separates concerns (main logic, counter animation, and landing animation)
+- Animations are managed with GSAP timelines and ScrollTrigger  
+- Project organized into `src/` and `public/` for clarity  
+- `media/` stores GIF previews and demo assets  
+- Vite ensures fast local dev and builds  
 
 ---
 
 ## 📚 Inspiration / Credits
 
-This project was inspired by:
+This project was inspired by:  
 
-- [GSAP Landing Animation Demos](https://codepen.io/GreenSock/)
-- [CustomEase Guide](https://gsap.com/docs/v3/Eases/CustomEase/)
-- SplitText-style animations (custom DOM span-splitting)
+- GSAP demos and creative coding community  
+- Web animation experiments and motion design trends  
+- Hands-on learning of interactive animation techniques  
 
 ---
 
 ## 🧪 Known Issues
 
-- ❌ No responsive fallback for very small screen sizes
-- 🔍 Text clip-paths may cause visual bugs in older browsers
+- ❌ Some animations may not perform smoothly on very old devices  
+- 🔍 Browser differences in scroll handling may affect playback  
 
 ---
 
 ## 🔭 Roadmap / TODO
 
-- [ ] Add replay button to restart animation
-- [ ] Modularize easing curves into a constants file
-- [ ] Implement dark/light mode theme transitions
+- [ ] Add more animation patterns (parallax, staggered reveals)  
+- [ ] Improve accessibility for animated elements  
+- [ ] Explore advanced easing functions  
+- [ ] Add theme variations (dark/light)  
 
 ---
 
@@ -82,19 +83,16 @@ This project was inspired by:
 
 ```bash
 interactive-gsap-features/
-├── public/
-│   └── media/
-│       └── preview.gif
-├── src/
-│   ├── animations/
-│   │   ├── counter.js
-│   │   └── revealLanding.js
-│   ├── utils/
-│   │   └── splitTextIntoSpans.js
-│   └── main.js
-├── index.html
-├── style.css
-└── README.md
+    index.html
+    README.md
+    public/
+    .gitignore
+    package-lock.json
+    package.json
+    .git/
+    media/
+    src/
+
 ```
 
 ---
@@ -107,4 +105,4 @@ MIT — feel free to use and adapt!
 
 ## 🙋‍♀️ Author
 
-Made with ☕ + 🎧 by [suzubu](https://github.com/suzubu)
+Made with ☕ + 🎧 by [suzubu](https://github.com/suzubu)  
